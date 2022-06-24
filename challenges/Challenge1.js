@@ -55,4 +55,4 @@ const isAnAnagram = (firstWord, secondWord) => {
   return true
 }
 
-console.log(isAnAnagram('Murcielago', 'crema'))
+module.exports = isAnAnagram
