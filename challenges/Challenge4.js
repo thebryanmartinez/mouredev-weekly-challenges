@@ -34,8 +34,11 @@ const polygonArea = (base, height) => {
   return {
     'Triangle': triangle,
     'Square': square,
-    'Rectange': rectangle
+    'Rectangle': rectangle
   }
 }
 
-console.log(polygonArea(4, 8))
+console.log(polygonArea(4, 4))
+console.log(polygonArea(12, 8))
+
+module.exports = polygonArea
