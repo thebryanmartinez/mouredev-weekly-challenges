@@ -19,9 +19,13 @@
  */
 
 const fizzBuzz = () => {
+  let resultArray = [];
   for (let i = 1; i <= 100; i++) {
-    (i % 3 === 0 && i % 5 === 0) ? console.log('fizzbuzz') : (i % 3 === 0) ? console.log('fizz') : (i % 5 === 0) ? console.log('buzz') : console.log(`${i}`)
+    (i % 3 === 0 && i % 5 === 0) ? resultArray.push('fizzbuzz') : (i % 3 === 0) ? resultArray.push('fizz') : (i % 5 === 0) ? resultArray.push('buzz') : resultArray.push(i)
   }
+  return resultArray;
 }
 
-fizzBuzz();
+console.log(fizzBuzz());
+
+module.exports = fizzBuzz
