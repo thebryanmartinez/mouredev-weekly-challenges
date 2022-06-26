@@ -19,3 +19,23 @@
  * - The supported polygons will be Triangle, Square and Rectangle.
  * - Prints the calculation of the area of a polygon of each type.
  */
+
+const polygonArea = (base, height) => {
+  // Variables
+  let triangle = (base * height) / 2
+  let square = (base == height) && base * height
+  let rectangle = (base != height) && base * height
+
+  /* square and rectangle explanation
+    If the base and height are the same, then it will calculate the area of the square and state false on the rectangle variable
+    If it's different, then calculates the rectangle and state false on the square variable
+  */
+
+  return {
+    'Triangle': triangle,
+    'Square': square,
+    'Rectange': rectangle
+  }
+}
+
+console.log(polygonArea(4, 8))
