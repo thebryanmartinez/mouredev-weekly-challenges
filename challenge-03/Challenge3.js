@@ -15,3 +15,12 @@
  * Statement: Write a program that is responsible for checking if a number is prime or not.
  * Once this is done, print the prime numbers between 1 and 100.
  */
+
+const primeNumbers = () => {
+  let resultArray = [1], isItPrime = false;
+  for (let i = 2; i <= 100; i++) {
+    
+  }
+}
+
+module.exports = primeNumbers

@@ -19,3 +19,20 @@
 * - A word is the same even if it appears in upper and lower case.
 * - It is not possible to use functions of the language that resolve it automatically.
 */
+
+const wordsCounter = (text) => {
+
+  let resultObject = {}
+  text = text.replace(/\p{P}/gu, "")
+  text = text.toUpperCase().split(' ')
+  
+  for(let i = 0; i <= text.length; i++) {
+        
+  }
+
+  return resultObject
+}
+
+console.log(wordsCounter('hello[ world] hello! world hello.'))
+
+module.exports = wordsCounter
