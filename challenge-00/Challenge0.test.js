@@ -1,4 +1,4 @@
-const fizzBuzz = require('../challenges/Challenge0')
+const fizzBuzz = require('./Challenge0')
 
 test('Returns the exact array', () => {
 	expect(fizzBuzz()).toStrictEqual([

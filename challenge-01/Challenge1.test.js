@@ -1,4 +1,4 @@
-const isAnAnagram = require('../challenges/Challenge1')
+const isAnAnagram = require('./Challenge1')
 
 test('Return anagram as true', () => {
 	expect(isAnAnagram('Murcielago', 'Crema')).toBe(true)

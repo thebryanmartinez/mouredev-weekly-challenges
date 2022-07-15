@@ -1,4 +1,4 @@
-const polygonArea = require('../challenges/Challenge4')
+const polygonArea = require('./Challenge4')
 
 test('Returns the exact object', () => {
 	expect(polygonArea(4, 4)).toStrictEqual({

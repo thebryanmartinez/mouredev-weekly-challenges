@@ -1,4 +1,4 @@
-const invertedChain = require('../challenges/Challenge6')
+const invertedChain = require('./Challenge6')
 
 test('Returns the reversed string', () => {
 	expect(invertedChain('Hello world!')).toBe('!dlrow olleH')
