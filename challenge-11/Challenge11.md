@@ -1,6 +1,6 @@
 # Challenge 11 - Deleting characters
 
-- ❌ Not completed
+- ✔️ Completed
 - Difficulty: EASY 🟢
 
 **Statement:** Create a function that receives two strings as parameters (str1, str2) and prints another two strings as output (out1, out2).
