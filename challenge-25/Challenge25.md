@@ -1,6 +1,6 @@
 # Challenge 25 - Rock-Paper-Scissors
 
-- ❌ Not completed
+- ✅ Completed
 - Difficulty: MEDIUM 🟡
 
 **Statement:** Create a program that calculates who wins the most games at rock, paper, scissors.
