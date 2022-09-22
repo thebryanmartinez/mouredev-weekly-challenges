@@ -1,5 +1,5 @@
 # Challenge 32 - The second one
 
-- ❌ Not completed
+- ✅ Completed
 - Difficulty: EASY 🟢
 **Statement:** Given an array of numbers, return the second highest.
