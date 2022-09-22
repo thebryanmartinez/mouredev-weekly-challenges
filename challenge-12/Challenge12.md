@@ -1,6 +1,6 @@
 # Challenge 12 - Is it a palindrome?
 
-- ❌ Not completed
+- ✅ Completed
 - Difficulty: MEDIUM 🟡
 
 **Statement:** Write a function that receives a text and returns true or false (Boolean) depending on whether or not they are palindromes.
