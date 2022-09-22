@@ -1,13 +1,18 @@
 const wordsCounter = text => {
 	const resultObject = {}
-	text = text.replace(/\p{P}/gu, '')
-	text = text.toUpperCase().split(' ')
+	const onlyLetters = text.replace(/\p{P}/gu, '')
+	const wordsArray = onlyLetters.toLowerCase().split(' ')
 
-	for (let i = 0; i <= text.length; i++) {}
-
+	for (const word of wordsArray) {
+		if (word in resultObject) {
+			resultObject[word] += 1
+		} else {
+			resultObject[word] = 1
+		}
+	}
 	return resultObject
 }
 
-console.log(wordsCounter('hello[ world] hello! world hello.'))
+console.log(wordsCounter('"Two things are infinite: the universe and human stupidity; and I\'m not sure about the universe."'))
 
 module.exports = wordsCounter
