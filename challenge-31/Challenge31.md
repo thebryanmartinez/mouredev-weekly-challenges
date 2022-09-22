@@ -1,7 +1,7 @@
 # Challenge 31 - Leap years
 
-- ❌ Not completed
+- ✅ Completed
 - Difficulty: EASY 🟢
 **Statement:** Create a function that prints the next 30 leap years following a given one.
 
-- Use the least number of lines to solve the exercise.  
+- Use the least number of lines to solve the exercise.
