@@ -1,6 +1,6 @@
 # Challenge 28 - Vending machine
 
-- ❌ Not completed
+- ✅ Completed
 - Difficulty: MEDIUM 🟡
 
 **Statement:** Simulate the operation of a vending machine by creating an operation that receives money (array of coins) and a number that indicates the selection of the product.
