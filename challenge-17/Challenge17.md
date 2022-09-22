@@ -1,6 +1,6 @@
 # Challenge 17 - The obstacle race
 
-- ❌ Not completed
+- ✅ Completed
 - Difficulty: MEDIUM 🟡
 
 **Statement:** Create a function that evaluates if an athlete has successfully passed an obstacle race.
